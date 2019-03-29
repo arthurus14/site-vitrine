@@ -16,7 +16,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #2927FF !important;
+  color: #ffa900; !important;
 }
 
 h1,
@@ -37,6 +37,7 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #ffa900;;
 }
 
 section h3.section-subheading {
@@ -65,13 +66,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #2927FF;
-  border-color: #fed136;
+  background-color: #007bffe8;
+  /*border-color: #fed136;*/
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #2927FF !important;
-  border-color: #fec810 !important;
+  background-color: #007bffe8 !important;
+  /*border-color: #fec810 !important;*/
   color: white;
 }
 
@@ -108,17 +109,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #2927FF;
+  background-color: #007bffe8;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #2927FF;
+  color: #ffa900;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #2927FF;
+  color: #ffa900;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,7 +132,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #2927FF;
+  color: #ffa900;
 }
 
 @media (min-width: 992px) {
@@ -489,6 +490,7 @@ header.masthead .intro-text .intro-heading {
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+  color: #ffa900;;
 }
 
 .timeline .timeline-body > ul,
